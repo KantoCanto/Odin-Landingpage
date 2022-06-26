@@ -99,7 +99,7 @@ header{
 .navcontainer{
     color: #F9FAF8;
     background-color: #1F2937;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
@@ -147,7 +147,7 @@ li{
 .cta{
     padding: 3% 5% 3% 5%;
 }
-.cta-container{
+.flex-container-cta{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -156,7 +156,19 @@ li{
     width: 10vw;
     height: 5vh;
     padding: 5%;
-    margin: 0 8vw 0 8vw;
+    margin: 1vh 0 1vh 8vw;
+    background-color:cadetblue;
+    border: 3px solid;
+    border-color: #F9FAF8;
+    border-radius: 16px;
+    vertical-align: middle;
+    text-align: center;
 }
-.item-1{
+.item{
+    margin: 0;
+    padding: 0 7vw 0 0vw;
+}
+.item-2{
+    margin: 0;
+    padding: 0 0 0 10vw;
 }
